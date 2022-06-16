@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+
+import sys
+
+name = sys.argv[1]
+year_of_birth = sys.argv[2]
+
+print("Hi " + name + ", you are " + year_of_birth + " years old.")
+
+print("Variable1 = " + name)
+print("Variable2 = " + year_of_birth)
+
+print("The script and varibles used are: " + str(sys.argv))
