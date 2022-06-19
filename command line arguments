@@ -13,3 +13,10 @@ print("Variable2 = " + year_of_birth)
 
 print("The script and varibles used are: " + str(sys.argv))
 commands()
+
+def helloWorld():
+	print(‘Hello World’)
+
+
+helloWorld()
+
